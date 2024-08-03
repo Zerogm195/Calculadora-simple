@@ -8,7 +8,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="favicon" href="">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <link rel="icon" href="./images/calculator.png">
 
     <title>Calculadora Simple</title>
 
@@ -16,9 +18,40 @@
 
 <body>
 
-    
+    <header class="Encabezado">
 
+    </header>
+
+    <main class="Principal">
+
+        <section class="Seccion">
+
+            <h1 class="Titulo">Calculadora Simple</h1>
+
+                <p id="Operacion">Suma:</p>
+
+                    <textarea id="Solicitud" rows="2" cols="10"></textarea>
+
+                    <h2 class="Mas">+</h2>
+
+                    <textarea id="Solicitud2" rows="2" cols="10"></textarea>
+                
+                    <button onclick="Sumar();" class="Boton">Suma</button>
+
+            <textarea readonly id="Parrafo">Ingrese 2 números para realizar la suma</textarea>
+
+        </section>
+
+    </main>
+    
+    <footer class="Sub">
+
+        <p class="Subtexto">Creado por Luis Ángel</p>
+
+    </footer>
     
 </body>
+
+        <script src="script.js"></script>
 
 </html>

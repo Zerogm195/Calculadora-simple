@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=M+PLUS+Rounded+1c&display=swap');
+
+:root{
+
+    --Primer-Color: #e0aaff;
+    --Segundo-Color: #3c096c;
+    --Tercer-Color: #c77dff;
+    --Cuarto-Color: #10002B;
+    --Quinto-Color: #f3dfff;
+    --Blanco: #ffffffb2;
+    --Color-Transparente: #00000000;
+    --Fuente-Redondeada: "M PLUS Rounded 1c", sans-serif;
+
+
+}
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+    scrollbar-width: none;
+
+}
+
+body{
+
+    background-image:linear-gradient( to left, #9cc3ff, #ff00ea9c, #ff00956b);
+    /*background-color: var(--Tercer-Color);*/
+    color: var(--Blanco);
+    font-family: var(--Fuente-Redondeada);
+
+}
+
+
+
+.Principal{
+
+    display: flex;
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+.Seccion{
+
+    display: flex;
+    padding: 15% 35%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: var(--Primer-Color);*/
+    border-radius: 30px;
+
+
+}
+
+.Titulo{
+
+    font-size: 2rem;
+    display: flex;
+    padding: 0%;
+
+}
+
+#Operacion{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+
+}
+
+textarea{
+
+    resize: none;
+    background-color: var(--Color-Transparente);
+
+}
+
+#Solicitud{
+
+    padding: 8% 0% 0% 0%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: var(--Blanco);
+    border-radius: 30px;
+
+
+}
+
+.Mas{
+
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+
+}
+
+#Solicitud2{
+
+    padding: 8% 0% 0% 0%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+    outline: none;
+    background-color: var(--Blanco);
+    border-radius: 30px;
+    border: none;
+
+
+}
+
+.Boton{
+
+    padding: 10% 20%;
+    margin-top: 5%;
+    background-image: linear-gradient(to top, #6a0be7ad, #ce0cff85);
+    border-radius: 30px;
+    font-size: 1rem;
+    border: var(--Color-Transparente);
+    color: var(--Quinto-Color);
+
+
+}
+
+#Parrafo {
+
+    outline: none;
+    overflow: hidden;
+    border: var(--Color-Transparente);
+    padding: 5% 20%;
+    display: flex;
+    font-size: 1.25rem;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+    color: var(--Blanco);
+
+}
+
+.Sub{
+
+    background-image: linear-gradient(to left, #750cff67, #4329d842, #750cff67);
+    padding: 3%;
+    text-align: center;
+    color: var(--Blanco);
+    font-family: var(--Fuente-Redondeada);
+    font-weight: 400;
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subtexto{
+
+    color: var(--Quinto-Color);
+    font-weight: bold;
+
+}
