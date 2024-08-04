@@ -20,6 +20,11 @@
 
     <header class="Encabezado">
 
+        <button onclick="CambiarSuma();" id="Suma" class="Mas_Cabeza">+</button>
+        <button onclick="CambiarResta();" id="Resta" class="Menos_Cabeza">-</button>
+        <button onclick="CambiarMultiplicacion();" id="Multiplicacion" class="Multiplicacion_Cabeza">*</button>
+        <button onclick="CambiarDivision();" id="Division" class="Division_Cabeza">/</button>
+
     </header>
 
     <main class="Principal">
@@ -32,11 +37,12 @@
 
                     <textarea id="Solicitud" rows="2" cols="10"></textarea>
 
-                    <h2 class="Mas">+</h2>
+                    <h2 class="Mas" id="Operacion_Signo">+</h2>
 
                     <textarea id="Solicitud2" rows="2" cols="10"></textarea>
                 
-                    <button onclick="Sumar();" class="Boton">Suma</button>
+                    <button onclick="Sumar();" class="Boton" id="Boton">Suma</button>
+
 
             <textarea readonly id="Parrafo">Ingrese 2 números para realizar la suma</textarea>
 

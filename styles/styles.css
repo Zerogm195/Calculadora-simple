@@ -28,10 +28,86 @@ body{
     /*background-color: var(--Tercer-Color);*/
     color: var(--Blanco);
     font-family: var(--Fuente-Redondeada);
+    animation: fondo-animadito 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+.Encabezado{
+
+    display: flex;
+    gap: 2%;
+    padding-left: 3%;
+    padding-top: 1%;
+
 
 }
 
+.Mas_Cabeza{
 
+    font-family: var(--Fuente-Redondeada);
+    font-size: 1.75rem;
+    background-color: var(--Color-Transparente);
+    border: none;
+    color: var(--Blanco);
+    background-image: linear-gradient(to top, #6a0be7ad, #ce0cff85);
+    padding: 0% 2%;
+    border-radius: 30px;
+    animation: operaciones-animaditas 30s ease infinite;
+    background-size: 200% 200%;
+
+
+
+
+}
+
+.Menos_Cabeza{
+
+    font-family: var(--Fuente-Redondeada);
+    font-size: 1.75rem;
+    background-color: var(--Color-Transparente);
+    border: none;
+    color: var(--Blanco);
+    background-image: linear-gradient(to top, #6a0be7ad, #ce0cff85);
+    padding: 0% 2%;
+    border-radius: 30px;
+    background-size: 200% 200%;
+    animation: operaciones-animaditas 30s ease infinite;
+
+
+}
+
+.Multiplicacion_Cabeza{
+
+    font-family: var(--Fuente-Redondeada);
+    font-size: 1.75rem;
+    background-color: var(--Color-Transparente);
+    border: none;
+    color: var(--Blanco);
+    background-image: linear-gradient(to top, #6a0be7ad, #ce0cff85);
+    padding: 0% 2%;
+    border-radius: 30px;
+    animation: operaciones-animaditas 30s ease infinite;
+    background-size: 200% 200%;
+
+
+
+}
+
+.Division_Cabeza{
+
+    font-family: var(--Fuente-Redondeada);
+    font-size: 1.75rem;
+    background-color: var(--Color-Transparente);
+    border: none;
+    color: var(--Blanco);
+    background-image: linear-gradient(to top, #6a0be7ad, #ce0cff85);
+    border-radius: 30px;
+    padding: 0% 2%;
+    animation: operaciones-animaditas 30s ease infinite;
+    background-size: 200% 200%;
+
+
+}
 
 .Principal{
 
@@ -44,7 +120,7 @@ body{
 .Seccion{
 
     display: flex;
-    padding: 15% 35%;
+    padding: 10% 35%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -121,6 +197,8 @@ textarea{
     font-size: 1rem;
     border: var(--Color-Transparente);
     color: var(--Quinto-Color);
+    animation: boton-animadito 30s ease infinite;
+    background-size: 200% 200%;
 
 
 }
@@ -130,7 +208,7 @@ textarea{
     outline: none;
     overflow: hidden;
     border: var(--Color-Transparente);
-    padding: 5% 20%;
+    padding: 10% 20%;
     display: flex;
     font-size: 1.25rem;
     width: 100%;
@@ -159,5 +237,130 @@ textarea{
 
     color: var(--Quinto-Color);
     font-weight: bold;
+
+}
+
+@keyframes fondo-animadito {
+    
+    0% {background-position: 70% 0%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 70% 0%;}
+    
+}
+
+@keyframes boton-animadito {
+    
+    0% {background-position: 0% 100%;}
+    50% {background-position: 100% 0%;}
+    100%{background-position: 0% 100%;}
+   
+    
+}
+
+@keyframes operaciones-animaditas {
+    
+    0% {background-position: 0% 100%;}
+    50% {background-position: 100% 0%;}
+    100%{background-position: 0% 100%;}
+   
+    
+}
+
+@media(max-width:1200px){
+
+    .Principal{
+
+        margin: 0%;
+        padding: 0%;
+
+    }
+    
+    body{
+
+        padding: 10% 10% 0% 10%;
+
+    }
+
+    .Seccion{
+
+        width: auto;
+        padding: 5% 0%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 2%;
+        margin-right: 10%;
+
+    }
+
+    .Sub{
+
+        background-image: none;
+        padding-top: 5%;
+
+    }
+
+    #Operacion{
+
+        padding-bottom: 10%;
+
+    }
+
+    .Mas{
+
+        margin-bottom: 0%;
+
+    }
+
+    .Mas_Cabeza{
+        
+        padding: 0% 7%;
+        margin-bottom: 5%;
+
+    }
+    .Menos_Cabeza{
+        
+        padding: 0% 8%;
+        margin-bottom: 5%;
+
+    }
+    .Division_Cabeza{
+        
+        padding: 0% 8%;
+        margin-bottom: 5%;
+
+    }
+    .Multiplicacion_Cabeza{
+        
+        padding: 0% 7%;
+        margin-bottom: 5%;
+    }
+
+    .Titulo{
+
+        margin-top: 2%;
+        margin-bottom: 3%;
+        text-align: center;
+
+    }
+
+    .Boton{
+
+        margin-top: 10%;
+        padding: 10% 25%;
+
+    }
+
+    #Solicitud2{
+
+        margin-bottom: 5%;
+        margin-top: 5%;
+
+    }
+
+    #Parrafo{
+
+        margin-bottom: 10%;
+
+    }
 
 }
