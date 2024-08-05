@@ -15,3 +15,4 @@
 <h2>Muchas gracias por su Atención -w-</h2>
 
 
+<h2>Link de la pagina: https://zerogm195.github.io/Calculadora-simple/ </h2>
